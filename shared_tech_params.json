@@ -1,0 +1,11 @@
+{
+    "assets": {
+        "AAN": {
+            "name": "icon",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1497854461150x886426641372963800/clippy.svg"
+        }
+    },
+    "dependencies": {
+        "use_jquery": true
+    }
+}

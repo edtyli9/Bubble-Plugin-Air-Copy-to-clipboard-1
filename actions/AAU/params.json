@@ -1,0 +1,17 @@
+{
+    "category": "plugins",
+    "display": "Copy to clipboard",
+    "fields": {
+        "AAW": {
+            "caption": "Text to copy",
+            "default_val": "",
+            "doc": "Specify the test to copy. e.g. Input's value or some other dynamic text",
+            "editor": "DynamicValue",
+            "name": "source_text",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

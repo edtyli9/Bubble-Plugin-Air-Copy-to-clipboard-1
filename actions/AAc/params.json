@@ -1,0 +1,5 @@
+{
+    "category": "plugins",
+    "display": "Paste clipboard",
+    "type": "client_side"
+}

@@ -1,0 +1,57 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 40,
+        "width": 40
+    },
+    "display": "Air copy to clipboard",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1497675234613x204441742505878200/clippy.svg",
+    "fields": {
+        "AAY": {
+            "caption": "Text to copy",
+            "doc": "Specify the text to copy here. It can be a dynamic text.",
+            "editor": "DynamicValue",
+            "name": "source",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAZ": {
+            "caption": "Use ID attribute of element",
+            "default_val": false,
+            "doc": "If yes the copy/cut action will use an id instead of a dynamic text field. If checked this will override the Input text field",
+            "editor": "Checkbox",
+            "name": "use_id",
+            "rank": 1
+        },
+        "AAa": {
+            "caption": "Target element ID attribute",
+            "doc": "Attribute Id of element to perform the action on",
+            "editor": "DynamicValue",
+            "name": "target_id",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "Action type",
+            "default_val": "copy",
+            "doc": "Clipboard action to perform. Either copy or cut. Note that you cannot cut text from a static field like a text element. You can only cut from input text fields",
+            "editor": "Dropdown",
+            "name": "action_type",
+            "options": "copy,cut",
+            "rank": 3
+        }
+    },
+    "icon": "ion-ios-copy-outline",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    }
+}
